@@ -1,0 +1,1 @@
+$('ul.tabs').tabs('div.tabItems');

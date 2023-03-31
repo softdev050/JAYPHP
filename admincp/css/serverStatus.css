@@ -1,0 +1,119 @@
+html,body
+{
+	background-color:#f3f3f3;
+	margin:0px;
+	padding:0px;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-size:13px;
+	line-height:18px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	color:#000
+}
+
+.table
+{
+	position: relative;
+	width: 805px;
+	margin: 20px auto;
+	border-bottom: 1px solid #000;
+	background: #fff;
+}
+.table tr:hover
+{
+	background: #ccc;
+}
+.table th
+{
+	font-weight: bold;
+	padding: 5px;
+	text-align: left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.table td
+{
+	padding: 5px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.form
+{
+	margin: 20px auto;
+	position: relative;
+	width: 805px;
+	text-align: center;
+}
+
+.submit
+{
+	padding: 2px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.submit:hover
+{
+	color: red;
+}
+
+.inputbox
+{
+	padding: 2px;
+	border: 1px solid #000;
+	width: 300px;
+}
+
+.ajaxLoader
+{
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+.small
+{
+	font-size: 11px;
+}
+
+.error
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}
+
+.notice
+{
+	font-size: 12px;
+	color: red;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: red;
+	border-top: 1px solid #000;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+}
+#footer a
+{
+	color: #fff;
+	text-decoration: none;
+}
+#footer a:hover
+{
+	color: #000;
+}
+
+.version
+{
+	margin-right: 30px;
+}

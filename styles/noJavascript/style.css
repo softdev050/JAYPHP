@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	padding: 0p;
+	background: #151515 url(update-webbrowsers.jpg) no-repeat center 0;
+}
+
+h1 {
+	font-size: 25px;
+	color: #fff;	
+}
+
+h3 {
+	font-size: 16px;
+	color: #ffc20e;	
+}
+
+a img {
+	border: 0;	
+}
+
+.logo {
+	margin: 30px 0 30px 0;	
+}
+
+#wrapper {
+	width: 972px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;	
+}
+
+.tagline img {
+	margin: 0 10px;	
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.downloads {
+	position: absolute;
+	top: 544px;
+	left: 100px;	
+}
+
+.downloads .download {
+	display: block;
+	width: 180px;
+	float: left;
+	margin-right: 21px;
+	overflow: hidden;
+	text-align: center;
+	zoom: 1;
+}
+
+.downloads .download h6,
+.downloads .download p {
+	text-align: center;
+}
+
+.downloads .download h6 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.downloads .download a {
+	font-size: 0;
+	line-height: 0;
+	text-indent: -999px;
+	display: inline-block;
+	width: 145px;
+	height: 32px;
+	overflow: hidden;
+	background: url(btn-download.gif) no-repeat 0 0;
+}
+
+/* lower than IE8 */
+.lte8 .downloads .download a {
+	display: block;
+}
+
+.downloads .download a:hover {
+	background-position: 0 -32px;	
+}
